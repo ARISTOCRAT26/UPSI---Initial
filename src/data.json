@@ -1,0 +1,63 @@
+{
+  "formTitle": "UPSI-SampleForm",
+  "formPublishDate": "01-09-2022",
+  "formInformation": "This is an example of UPSI form for demonstration purposes.",
+  "formData": [
+    {
+      "id": "1",
+      "type": "shortAnswer",
+      "title": "Name of person reporting UPSI",
+      "answer": "",
+      "required": true,
+      "finalval": ""
+    },
+    {
+      "id": "2",
+      "type": "descriptiveAnswer",
+      "title": "Name(s) of Internal Person(s) with whom UPSI has been shared, elaborate as much as you can",
+      "answer": "",
+      "required": true,
+      "finalval": ""
+    },
+    {
+      "id": "3",
+      "type": "options",
+      "title": "Is this a self declaration",
+      "answer": ["Yes", "No"],
+      "required": true,
+      "finalval": ""
+    },
+    {
+      "id": "4",
+      "type": "multipleChoice",
+      "title": "What was the information - Choose all applicable",
+      "answer": ["Stock", "Crypto", "Betting", "Lol"],
+      "required": true,
+      "finalval": ""
+    },
+    {
+      "id": "5",
+      "type": "selectCase",
+      "title": "Medium through which UPSI was shared",
+      "answer": ["Email", "PhoneCall", "VideoCall", "Newspaper"],
+      "required": true,
+      "finalval": ""
+    },
+    {
+      "id": "6",
+      "type": "datePicker",
+      "title": "Date on which UPSI was shared",
+      "answer": "",
+      "required": true,
+      "finalval": ""
+    },
+    {
+      "id": "7",
+      "type": "fileUpload",
+      "title": "Supported Files (One only)",
+      "answer": "",
+      "required": true,
+      "finalval": ""
+    }
+  ]
+}

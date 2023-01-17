@@ -1,0 +1,35 @@
+.home {
+    display: inline-grid;
+    width: 100%;
+  }
+  .btnContainer {
+    margin: 0.35em;
+    display: flex;
+    justify-self: flex-end;
+  }
+  
+  .active {
+    background-color: green;
+    color: white;
+    padding: 0.3em 0.5em;
+    width: 40%;
+    margin: 0.5em;
+    display: flex;
+    text-decoration: none;
+    border-radius: 2em;
+    font-weight: bolder;
+    justify-content: center;
+  }
+  
+  .inactive {
+    background-color: red;
+    color: white;
+    padding: 0.3em 0.5em;
+    width: 40%;
+    margin: 0.5em;
+    display: flex;
+    text-decoration: none;
+    border-radius: 2em;
+    font-weight: bolder;
+    justify-content: center;
+  }
